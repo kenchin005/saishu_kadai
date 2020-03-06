@@ -1,0 +1,223 @@
+* {box-sizing: border-box;}
+
+.naviga p{
+
+}
+
+.naviga p:hover{
+    background: aqua;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    background: gainsboro;
+}
+
+.rightnavi {
+    display: flex;
+}
+
+.rightnavi p {
+    margin: 0px 10px 0px 5px;
+}
+
+.pic_con {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 30px auto;
+}
+.pic{
+    width: 300px;
+}
+
+.pic img{
+    width: 100%;
+}
+
+.pic img:hover{
+    cursor: pointer;
+}
+
+.prof{
+display: flex;
+}
+
+.kao{
+width: 50%;
+text-align: center;
+}
+
+.kao img{
+    width: 45%;
+}
+
+
+.account{
+width: 50%;
+}
+
+.nam{
+    font-size: 22px;
+}
+
+.follow {
+    background: aqua;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    padding-top: 3px;
+    margin-left: 18px;
+}
+
+.follow:hover{
+ background: rgb(0, 185, 185);
+ cursor: pointer;
+}
+
+.user {
+    display: flex;
+   
+}
+
+
+.inst {
+    background: gainsboro;
+    border-radius: 15px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position:fixed
+}
+
+body{
+    position: relative;
+}
+
+input#submit {
+    border-radius: 6px;
+    box-shadow: none;
+    border: 0px solid aqua;
+    font-weight: bold;
+    color: white;
+    background: aqua;
+}
+
+.batu img{
+    width: 100%;
+}
+
+.batu {
+    width: 25px;
+    height: 15px;
+    margin-left: 304px;
+}
+
+
+.inst_hidden {
+    background: lightgray;
+    width: 630px;
+    height: 230px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    border-radius: 30px;
+    position: fixed;
+}
+
+/* body.on{
+    width:100%;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+/* .inst_hidden::before{
+    content: '';
+    width:100%;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+/* #modal-overlay{
+
+	z-index:1;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+	background-color:rgba(0,0,0,0.75);
+} */
+
+
+.active {
+   
+  }
+
+
+
+.batu1 img{
+    width: 100%;
+}
+
+.batu1 {
+    width: 25px;
+    height: 15px;
+    margin-left: 272px;
+    /* margin-top: 20px; */
+    padding-top: 43px;
+}
+
+/* .over{
+    position: fixed;
+    background-color:rgba(0,0,0,0.75);
+    z-index: 1;
+    top:0;
+	left:0;
+	width:100%;
+	height:120%;
+} */
+
+/* 
+.over{
+    opacity: 0.5;
+}
+
+.ov{
+    opacity: 1.0;
+} */
+
+/* .top {
+    text-align: center;
+    background: yellow;
+    /* display: inline-block; */
+    /* border-radius: 55px;
+    margin: 0 auto;
+    width: 100px;
+} */ 

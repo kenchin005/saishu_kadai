@@ -1,0 +1,405 @@
+* {box-sizing: border-box;}
+
+body{
+  /* width: 900px; */
+  /* background: pink; */
+  height: 100%;
+  /* border: 1px rgb(196, 196, 196) solid; */
+  position: relative;
+}
+
+
+
+/* label {
+    display: inline-block;
+  }
+  
+  label img {
+    pointer-events: none;
+  }
+  
+  input[type=file] {
+    display: none;
+  } */
+
+  .file_button{
+    display: none;
+  }
+
+  .file_button1{
+    display: none;
+  }
+  
+  /* .file_mask_bg{ */
+    /* display: none; */
+  /* } */
+/* 
+  .file_mask span{
+    background-image: url(../img/写真アイコン4.png);
+    background-position:left top;
+    height: 81px;
+    width: 100px;
+    cursor:pointer;
+  } */
+/* 
+  .file_mask span:hover{
+    background-position:left bottom;
+  } */
+
+
+.navi {
+    width: 20%;
+    /* background: red; */
+    /* position: fixed; */
+    border: 1px rgb(196, 196, 196) solid;
+    position: fixed;
+    
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.navi_pic_con h1{
+  padding-top: 15px;
+  padding-left: 12px;
+}
+
+.navi_pic_con p img{
+  width: 100%;
+}
+
+.navi_pic_con p {
+  width: 25%;
+  /* margin: 0 auto; */
+}
+
+.twitter{
+  display:flex;
+  margin: -8px 30px 20px 30px;
+  border: 1px rgb(196, 196, 196) solid;
+  width: 100%;
+}
+
+.tweet {
+  display: flex;
+  /* background: yellow; */
+  border: 1px rgb(196, 196, 196) solid;
+}
+
+.tweet_box {
+  width: 45%;
+  /* background: green; */
+  border: 1px rgb(196, 196, 196) solid;
+  margin-left: 20.2%;
+}
+
+.tweet p img{
+  width: 100%;
+}
+
+.tweet p{
+  width: 11%;
+}
+
+.twi_area{
+  padding-top: 17px;
+}
+
+input.twi_text {
+  width: 100%;
+  /* height: 155%; */
+  height: 50px;
+}
+
+img.file_mask_bg {
+  width: 33px;
+  padding-top: 10px;
+}
+
+form{
+  width: 100%;
+}
+
+.sousin {
+  display: flex;
+  justify-content: flex-end;
+}
+
+input.submit {
+  background: aqua;
+  border: none;
+  border-radius: 40px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  margin: 8px;
+}
+
+input.submit:hover{
+  background: blue;
+  cursor: pointer;
+}
+
+.kao_name {
+  display: flex;
+  width: 100%;
+  /* background: blue; */
+}
+
+
+
+.kao_name p img{
+  width: 100%;
+}
+
+.kotei_icon{
+  width: 10%;
+}
+
+.pic {
+  text-align: center;
+  width: 100%;
+}
+
+.pic img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+.pic p{
+  margin:  0 auto;
+}
+
+
+.ie{
+display: flex;
+padding-left: 28px;
+}
+
+.mail{
+  display: flex;
+  padding-left: 28px;
+}
+
+.list{
+  display: flex;
+  padding-left: 28px;
+}
+
+.hane{
+  display: flex;
+  padding-left: 28px;
+}
+
+.same{
+  padding-left: 28px;
+}
+
+.same p:hover{
+  background: aqua;
+  border-radius: 40px;
+  
+}
+
+
+.ie:hover{
+  background: aqua;
+  border-radius: 70px;
+}
+  
+.mail:hover{
+  background: aqua;
+  border-radius: 70px;
+}
+  
+.list:hover{
+  background: aqua;
+  border-radius: 70px;
+}
+  
+.hane:hover{
+  background: aqua;
+  border-radius: 70px;
+  cursor: pointer;
+}
+
+.trend {
+  margin: 10px;
+  width: 32%;
+  /* background: red; */
+  /* text-align: center; */
+  /* position: absolute; */
+}
+
+/* .trend.fixed{
+  position: fixed;
+  top: 0;
+} */
+
+
+
+.twi_con {
+  border: 1px rgb(196, 196, 196) solid;
+}
+
+.twi_con:hover{
+  background: rgb(196, 196, 196);
+}
+
+.osusume {
+  background: rgb(241, 241, 241);
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.osusume p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 0px 10px;
+}
+
+.osusume h1{
+  margin: 0px 0px 0px 10px;
+}
+
+.osusume span{
+  font-size: 14px;
+}
+
+.osusume-word {
+  border-bottom: 1px rgb(196, 196, 196) solid;
+}
+
+.osusume-word:hover{
+  background: rgb(196, 196, 196);
+}
+
+
+input#kensaku {
+  margin: 0px 0px 0px 25px;
+  border-radius: 24px;
+  /* box-shadow: none; */
+  border: none;
+  background: rgb(184, 250, 250);
+  height: 40px;
+  width: 90%;
+  padding-left: 14px;
+}
+
+.osusume {
+  background: rgb(241, 241, 241);
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.osusume_user {
+  display: flex;
+  border-bottom: 1px rgb(196, 196, 196) solid;
+  padding-left: 6px;
+}
+
+.osusume_user p img{
+  width: 100%;
+}
+
+.icon{
+ width: 16%;
+}
+
+.user p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 160px;
+  white-space: nowrap;
+  font-weight: bold;
+  margin: 22px 20px 0px 6px;
+}
+.user span{
+  margin: 0px -25px 0px 6px;
+
+}
+
+.osusume2 {
+  background: rgb(241, 241, 241);
+  border-radius: 10px;
+  margin: 25px;
+  padding-left: 6px;
+  position: sticky;
+  margin-bottom: 0;
+  top: 10px;
+  z-index: 1;
+}
+
+.follow {
+  border: 1px aqua solid;
+  height: 28px;
+  border-radius: 15px;
+  /* font-size: 15px; */
+  font-weight: bold;
+  color: aqua;
+  margin-top: 31px;
+  cursor: pointer;
+}
+
+.follow:hover{
+  background: rgb(186, 255, 232);
+}
+
+.osusume_user:hover{
+  background: rgb(196, 196, 196);
+}
+
+.tweet_hidden {
+  width: 520px;
+  height: 130px;
+  display: flex;
+  /* background: yellow; */
+  border: 1px rgb(196, 196, 196) solid;
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.tweet_hidden p img{
+  width: 100%;
+}
+
+.tweet_hidden p{
+  width: 11%;
+}
+
+/* モーダルCSS */
+.modalArea {
+  display: none;
+  position: fixed;
+  z-index: 10; /*サイトによってここの数値は調整 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modalBg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30,30,30,0.9);
+}
+
+.modalWrapper {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 70%;
+  max-width: 500px;
+  /* padding: 10px 30px; */
+  /* background-color: #fff; */
+}
+
+.closeModal {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  cursor: pointer;
+}

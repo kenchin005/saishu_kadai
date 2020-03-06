@@ -1,0 +1,40 @@
+.choose {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/* .iicon{
+    width: 50%;
+} */
+
+.iicon img{
+    width: 100%;
+}
+
+/* iicon{
+    width: 50%;
+} */
+
+.ticon img{
+    width: 100%;
+}
+
+.insta {
+    
+    width: 50%;
+}
+
+.twitter{
+    width: 50%;
+    
+}
+
+.insta:hover{
+    background: red;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    background: blue;
+    cursor: pointer;
+}
